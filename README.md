@@ -14,7 +14,8 @@ To start a project you need to use docker, write this command below, and you rea
 - It is possible to implement more services to make Controllers more clean
 - In many Dto or Models I used `init;` to prohibit mutating in middle of nowhere during method execution
 - Used classic approach of implementing classes, using interfaces to describe behaviour of class
-- Unfortunately almost forgot to use `ShoulExtension.cs`, but must say it is nice 
+- Unfortunately almost forgot to use `ShoulExtension.cs`, but must say it is nice
+- Of course I should hide DB secrets in case of making this App as a prod. version
 
 ________________________________________________________________________________________________________________________
 
